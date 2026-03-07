@@ -1,0 +1,20 @@
+{
+  "name": "ForgeBase",
+  "version": "1.0.0",
+  "description": "Uma simples base para iniciantes no forgescript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tryforge/forge.db": "^2.1.1",
+    "@tryforge/forgescript": "^2.6.0"
+  },
+  "devDependencies": {
+    "better-sqlite3": "^12.5.0",
+    "dotenv": "^17.3.1"
+  }
+}
