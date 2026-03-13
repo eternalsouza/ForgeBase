@@ -33,7 +33,7 @@ client.commands.load("./src/commands/prefix/");
 client.applicationCommands.load("./src/commands/slash/");
 
 // Handler
-ForgeDB.variables(require("./src/hanler/Database/Variables.js"));
+ForgeDB.variables(require("./src/handler/Database/Variables.js"));
 client.commands.load("./src/handler/Events/");
 
 client.login();
